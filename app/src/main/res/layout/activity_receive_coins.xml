@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary">
+    <include layout="@layout/layout_topbar_common"/>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/topbar_common"
+        android:background="@color/white"></FrameLayout>
+    <View
+        android:id="@+id/view_cover_receive_coins_activity"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/c_303030"
+        android:alpha="0.3"/>
+    <LinearLayout
+        android:id="@+id/ll_center_layout"
+        android:layout_width="320dp"
+        android:layout_height="430dp"
+        android:orientation="vertical"
+        android:layout_centerInParent="true"
+        android:gravity="center_horizontal"
+        android:background="@mipmap/icon_bg_receive_coins">
+        <ImageView
+            android:id="@+id/iv_qrcode_receive_coins_activity"
+            android:layout_width="195dp"
+            android:layout_height="195dp"
+            android:layout_marginTop="40dp" />
+        <TextView
+            android:id="@+id/tv_wallet_address_receive_coins"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:textSize="12sp"
+            android:textColor="@color/c_999999"
+            android:includeFontPadding="false"
+            android:text="0x0024498dffkk114545sdf"/>
+        <TextView
+            android:id="@+id/btn_copy_address"
+            android:layout_width="75dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="15dp"
+            android:textSize="12sp"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:background="@mipmap/icon_bg_btn_copy"
+            android:text="@string/copy_address"
+            android:includeFontPadding="false"
+            />
+        <View
+            android:layout_width="1dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"/>
+        <TextView
+            android:id="@+id/btn_save_qrcode"
+            android:layout_width="195dp"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:textSize="15sp"
+            android:textColor="@color/white"
+            android:layout_marginBottom="30dp"
+            android:background="@mipmap/icon_bg_btn_save_qrcode"
+            android:text="@string/save_qrcode"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

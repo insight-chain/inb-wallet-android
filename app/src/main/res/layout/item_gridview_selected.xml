@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:layout_width="100dp"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:id="@+id/root_view_item_gridview_selected"
+    >
+    <TextView
+        android:id="@+id/tv_selected_word"
+        android:layout_width="85dp"
+        android:layout_height="30dp"
+        android:layout_margin="7dp"
+        android:background="@mipmap/icon_bg_tv_item_gridview_selected"
+        android:textSize="14sp"
+        android:textColor="@color/c_303030"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        />
+    <ImageView
+        android:id="@+id/iv_delete_item_gridview_selected"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:paddingRight="2dp"
+        android:paddingTop="1dp"
+        android:paddingLeft="5dp"
+        android:paddingBottom="5dp"
+        android:src="@mipmap/icon_delete_item_gridview_selected"/>
+
+</RelativeLayout>

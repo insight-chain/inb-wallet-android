@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CheckBox
+    android:id="@+id/checkbox_item_gridview_hold"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="79dp"
+    android:layout_height="30dp"
+    android:background="@drawable/selector_checkbox_item_gridview_hold"
+    android:textSize="14sp"
+    android:text=""
+    android:gravity="center"
+    android:textColor="@drawable/selector_checkbox_item_gridview_hold_color"
+    android:button="@null">
+
+</CheckBox>

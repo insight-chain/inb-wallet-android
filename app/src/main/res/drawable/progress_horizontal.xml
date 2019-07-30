@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--3个层的顺序即为显示时的叠加顺序-->
+    <!--背景色-->
+    <item android:id="@android:id/background">
+        <shape>
+            <corners android:radius="5dip" />
+            <solid android:color="#f5f5f5" />
+            <stroke
+                android:width="1dp"
+                android:color="@color/c_eeeeee" />
+        </shape>
+    </item>
+    <!--二级进度条的颜色-->
+    <item android:id="@android:id/secondaryProgress">
+        <clip>
+            <shape>
+                <corners android:radius="5dip" />
+                <solid android:color="#88F56100" />
+            </shape>
+        </clip>
+    </item>
+    <!--一级进度条的颜色，也可以直接替换成图片-->
+    <item android:id="@android:id/progress" >
+        <scale
+            android:drawable="@drawable/shape_progressbar_progress"
+            android:scaleWidth="100%"/>
+
+    </item>
+</layer-list>

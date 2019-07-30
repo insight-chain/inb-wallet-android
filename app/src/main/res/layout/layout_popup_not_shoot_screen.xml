@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#99000000"/>
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        >
+        <ImageView
+            android:id="@+id/iv_background"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/icon_bg_popup_not_shoot_screen"/>
+        <ImageView
+            android:id="@+id/iv_close_popup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignRight="@id/iv_background"
+            android:layout_alignTop="@id/iv_background"
+            android:padding="15dp"
+            android:src="@mipmap/icon_close"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@id/iv_background"
+            android:layout_alignRight="@id/iv_background"
+            android:layout_marginRight="25dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="180dp"
+            android:textSize="14sp"
+            android:textColor="@color/c_f5a623"
+            android:text="@string/hint_popup_not_shoot_screen"
+            android:includeFontPadding="true"
+            android:lineSpacingMultiplier="1.2"
+            />
+        <TextView
+            android:id="@+id/tv_I_know"
+            android:layout_width="195dp"
+            android:layout_height="40dp"
+            android:layout_centerHorizontal="true"
+            android:layout_alignBottom="@id/iv_background"
+            android:layout_marginBottom="30dp"
+            android:gravity="center"
+            android:textSize="15sp"
+            android:textColor="@color/white"
+            android:text="@string/I_know"
+            android:background="@drawable/shape_rectangle_3574fa_5dp"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>

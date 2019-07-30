@@ -1,0 +1,325 @@
+<resources>
+    <string name="app_name">INBWallet</string>
+
+    <!--MainActivity-->
+    <string name="wallet">钱包</string>
+    <string name="discovery">发现</string>
+    <string name="setting">设置</string>
+    <string name="wallet_tag">wallet_tag</string>
+    <string name="discovery_tag">discovery_tag</string>
+    <string name="mine_tag">mine_tag</string>
+    <string name="again_press_logout">再按一次退出</string>
+    <!--Topbar-->
+    <string name="cancel">取消</string>
+
+    <!--钱包WalletFragment-->
+    <string name="my_assets_wallet_fragment">我的资产</string>
+    <string name="wallet_detail_wallet_fragment">钱包详情</string>
+    <string name="receive_money_wallet_fragment">收款</string>
+    <string name="transfer_accounts_wallet_fragment">转账</string>
+    <string name="scan_code_wallet_fragment">扫码</string>
+    <string name="transaction_record_wallet_fragment">交易记录</string>
+    <string name="vote_wallet_fragment">投票</string>
+    <string name="selected_wallet_fragment">已选</string>
+    <string name="backups_wallet_fragment">备份</string>
+    <string name="CPU_resources_wallet_fragment">CPU资源</string>
+    <string name="NET_resources_wallet_fragment">NET资源</string>
+    <string name="left_CPU_wallet_fragment">剩余</string>
+    <string name="total_CPU_wallet_fragment">总量</string>
+    <string name="pawn_wallet_fragment">抵押</string>
+    <string name="add_account">添加账户</string>
+    <!--钱包详情WalletDetailActivity-->
+    <string name="wallet_detail_title">钱包详情</string>
+    <string name="account_name_wallet_detail_activity">账号名</string>
+    <string name="wallet_address_wallet_detail_activity">钱包地址</string>
+    <string name="create_time_wallet_detail_activity">创建时间</string>
+    <string name="export_current_private_key">导出当前私钥</string>
+    <string name="modify_wallet_password">修改钱包密码</string>
+    <string name="resource_mortgage">资源抵押</string>
+    <string name="resource_unmortgage">资源赎回</string>
+
+    <!--导入钱包ImportWalletActivity-->
+    <string name="import_wallet">导入钱包</string>
+    <string name="create_wallet">创建钱包</string>
+    <string name="private_key">私钥</string>
+    <string name="mnemonic_word">助记词</string>
+    <!--私钥导入PrivateKeyImportFragment-->
+    <string name="enter_your_private_key_please_hint">请输入您的私钥</string>
+    <string name="wallet_password">钱包密码</string>
+    <string name="setting_password_hint">设置一个密码保护钱包</string>
+    <string name="password_tip_message">密码提示信息</string>
+    <string name="password_tip_message_hint">可不填</string>
+    <string name="confirm_hint_private_key_import_fragment">我已经仔细阅读并</string>
+    <string name="confirm_hint2_private_key_import_fragment">同意服务及隐私条款</string>
+    <!--助记词导入-->
+    <string name="enter_mnemonic_word">输入助记词</string>
+    <string name="enter_mnemonic_word_hint">请输入助记词，并使用空格分离</string>
+    <!--收款ReceiveCoinsActivity-->
+    <string name="receive_coins">收款</string>
+    <string name="copy_address">复制地址</string>
+    <string name="save_qrcode">保存二维码</string>
+    <!--备份钱包BacksUpWalletActivity-->
+    <string name="hint1_backs_up_wallet_activity">建议抄写或打印私钥后放置在安全地点保存;</string>
+    <string name="hint2_backs_up_wallet_activity">请勿通过网络工具传输私钥，一旦被黑客获取将造成不可挽回的损失。</string>
+    <!--交易详情TransactionDetailActivity-->
+    <string name="transaction_succeed">转账成功</string>
+    <string name="receive_succeed">收款成功</string>
+    <string name="nick_name_send">发款方昵称</string>
+    <string name="nick_name_receive">收款方昵称</string>
+    <string name="hint_send_account">付款账户</string>
+    <string name="hint_receive_account">收款账户</string>
+    <string name="recourse_wasted">资源消耗</string>
+    <string name="hint_CPU_wasted">CPU资源</string>
+    <string name="hint_NET_wasted">NET(Kbytes)</string>
+    <string name="hint_block_number">区块号</string>
+    <string name="transaction_time">交易时间</string>
+    <string name="transaction_number">交易号</string>
+    <string name="research_transaction">交易查询</string>
+    <string name="enter_receive_account_please">请输入收款账户</string>
+    <string name="enter_transaction_amount_please">请输入转账金额</string>
+    <string name="enter_remarks_information_please">请输入备注信息</string>
+    <string name="receive_account">收款账户</string>
+    <string name="all">全部</string>
+    <string name="can_used_coin_number">可用余额</string>
+    <string name="amount">数量</string>
+    <string name="remarks_information">备注信息</string>
+    <string name="send">发送</string>
+    <string name="transaction_detail">交易详情</string>
+    <string name="backs_up_wallet">备份钱包</string>
+    <string name="transaction_history">交易历史</string>
+    <string name="loading_layout_load_more">加载中</string>
+    <string name="no_more_data">没有更多数据了</string>
+    <string name="initiator">发起方</string>
+    <string name="contract">合约</string>
+    <string name="mortgage_CPU_NET">抵押NET</string>
+    <string name="unmortgage_CPU_NET">解抵押NET</string>
+    <string name="mortgage_detail">抵押详情</string>
+    <string name="node_vote">节点投票</string>
+    <!--修改密码ModifyPasswordActivity-->
+    <string name="old_password">原密码</string>
+    <string name="new_password">新密码</string>
+    <string name="confirm_new_password">确认新密码</string>
+    <string name="enter_current_password">请输入当前密码</string>
+    <string name="enter_new_password">请输入新密码</string>
+    <string name="enter_new_password_again">再次输入新密码</string>
+    <string name="done">完成</string>
+    <string name="modify_password">修改密码</string>
+    <!--投票 VoteActivity-->
+
+    <!--投票选择 VoteChoiceFragment-->
+    <string name="chosen_nodes">已选节点</string>
+    <string name="confirm_vote">提交投票</string>
+    <string name="selected_and_total_vote">%1$s/%2$s</string>
+    <!--投票确认 VoteConfirmFragment-->
+    <string name="resource_been_mortgaged">已抵押资源</string>
+    <string name="add_mortgage_resource">新增抵押资源</string>
+    <string name="selected_node_point">已选节点</string>
+    <string name="total_vote_number">总投票数</string>
+    <string name="account_balance">账户余额：</string>
+    <!--交易历史 TransactionHistoryActivity-->
+    <string name="resource">资源</string>
+    <string name="other">其他</string>
+    <string name="trasfering">转账中</string>
+    <string name="transfer">转账</string>
+    <!--请勿截图 popup_not_shoot_screen-->
+    <string name="hint_popup_not_shoot_screen">如果有人获取到您的私钥将直接获取您的财产！请抄写下私钥并存放在安全的地方。</string>
+    <string name="I_know">我知道了</string>
+    <!--设置页面 SettingFragment-->
+    <string name="system_setting">系统设置</string>
+    <string name="invite_friends">邀请好友</string>
+    <string name="check_update">检查更新</string>
+    <string name="help_center">帮助中心</string>
+    <string name="about_us">关于我们</string>
+    <!--关于我们 AboutUsActivity-->
+    <string name="current_version_about_us">当前版本</string>
+    <string name="agreement_and_privacy_clause">使用协议与隐私条款</string>
+    <string name="official_website">官方网站</string>
+    <string name="wechat_number">微信公众号</string>
+    <!--系统设置 SystemSettingActivity-->
+    <string name="language_select">语言选择</string>
+    <string name="push_setting">推送设置</string>
+    <string name="application_lock">应用锁</string>
+    <string name="touch_ID">Touch ID</string>
+
+    <!--创建钱包 CreateWalletActivity-->
+    <string name="identity_name">身份名称</string>
+    <string name="set_identity_name_hint">设置一个身份名称</string>
+    <!--未导入状态 WelcomeFragment-->
+    <string name="create_wallet_hint">(没有INB公链钱包)</string>
+    <string name="import_wallet_hint">(我有INB公链钱包)</string>
+    <string name="create_an_INB_wallet">创建一个INB钱包</string>
+    <string name="import_an_INB_wallet">通过私钥、助记词导入钱包</string>
+    <string name="hello_welcome_fragment">您好，</string>
+    <string name="welcome_to_insight_chain">欢迎来到Insight Chain</string>
+
+    <!--授权dialog-->
+    <string name="permission_alert_dialog_title_external">需要读写授权</string>
+    <string name="permission_dialog_message_external">你的钱包需要读写授权以启用自动在此设备保存钱包的加密备份功能</string>
+    <string name="permission_alert_dialog_title_camera">需要摄像头授权</string>
+    <string name="permission_dialog_message_camera">你的钱包需要摄像头授权以扫描二维码</string>
+    <string name="ok">OK</string>
+
+    <!--创建后强制备份 BacksUpHintFragment-->
+    <string name="hint1_backs_up_hint_fragment">妥善备份钱包才能保障您的资产安全。卸载程序或删除钱包后，您需要通过备份文件来恢复钱包；</string>
+    <string name="hint2_backs_up_hint_fragment">请在四周无人、确保没有摄像头的安全环境下进行备份。</string>
+    <string name="hint_backs_up_show_fragment">请仔细抄写下方助记词，我们将在下一步进行验证。</string>
+    <string name="wallet_mnemonic_word">钱包助记词</string>
+    <string name="wallet_private_key">钱包私钥</string>
+    <string name="next_step">下一步</string>
+    <!--备份助记词 BacksUpMnemonicFragment-->
+    <string name="click_mnemonic_hint">按照顺序点击助记词，确认您的身份</string>
+    <!--资源页面 ResourceActivity-->
+    <string name="mortgage">抵押</string>
+    <string name="CPU_mortgage">CPU抵押</string>
+    <string name="NET_mortgage">NET抵押</string>
+    <string name="redeem">赎回</string>
+    <string name="CPU_redeem">CPU赎回</string>
+    <string name="can_redeem">可赎回</string>
+    <string name="inter_inb_number_please">请输入INB数量</string>
+    <string name="CPU_mortgage_hint1">1.注意在INB网络上面的任何交易都会占用CPU与NET。</string>
+    <string name="CPU_mortgage_hint2">2.所占用的资源在一定时间后会返还。</string>
+    <string name="CPU_mortgage_hint3">3.您可以在任何时候赎回资源，但是会有三天的等待期。</string>
+    <string name="confirm">确定</string>
+    <string name="CPU_redeem_hint1">1.仅能赎回自己抵押的资源。</string>
+    <string name="CPU_redeem_hint2">2.如果您当前已经消耗了一部分资源，则无法赎回全部的资源，请尝试减少赎回的数量。</string>
+    <string name="CPU_redeem_hint3">3.所有赎回中的INB资源将在最后一次赎回操作的三天后退回。</string>
+
+    <!--申请备选节点-->
+    <string name="update_note_information">更新节点信息</string>
+
+    <!--升级弹窗-->
+    <string name="upgrade_version">更新版本</string>
+    <string name="immediately_update">立即更新</string>
+    <string name="update_tip">更新包正在下载中...</string>
+    <string name="found_new_version_and_click_update">发现新版本，点击进行升级</string>
+    <string name="upgrade">升级</string>
+    <string name="update_download_progress">正在下载:%1$d%%</string>
+    <string name="one_file_zero_done">共1个文件,0个已完成</string>
+    <string name="download_failed">下载失败</string>
+
+    <!--QRcode-->
+    <string name="app_picker_name">Applications</string>
+    <string name="bookmark_picker_name">Bookmarks</string>
+    <string name="button_add_calendar">Add to calendar</string>
+    <string name="button_add_contact">Add contact</string>
+    <string name="button_book_search">Book Search</string>
+    <string name="button_cancel">Cancel</string>
+    <string name="button_custom_product_search">Custom search</string>
+    <string name="button_dial">Dial number</string>
+    <string name="button_email">Send email</string>
+    <string name="button_get_directions">Get directions</string>
+    <string name="button_mms">Send MMS</string>
+    <string name="button_ok">OK</string>
+    <string name="button_open_browser">Open browser</string>
+    <string name="button_product_search">Product search</string>
+    <string name="button_search_book_contents">Search contents</string>
+    <string name="button_share_app">Application</string>
+    <string name="button_share_bookmark">Bookmark</string>
+    <string name="button_share_by_email">Share via email</string>
+    <string name="button_share_by_sms">Share via SMS</string>
+    <string name="button_share_clipboard">Clipboard</string>
+    <string name="button_share_contact">Contact</string>
+    <string name="button_show_map">Show map</string>
+    <string name="button_sms">Send SMS</string>
+    <string name="button_web_search">Web search</string>
+    <string name="button_wifi">Connect to Network</string>
+    <string name="contents_contact">Contact info</string>
+    <string name="contents_email">Email address</string>
+    <string name="contents_location">Geographic coordinates</string>
+    <string name="contents_phone">Phone number</string>
+    <string name="contents_sms">SMS address</string>
+    <string name="contents_text">Plain text</string>
+    <string name="history_clear_text">Clear history</string>
+    <string name="history_clear_one_history_text">Clear</string>
+    <string name="history_email_title">Barcode Scanner history</string>
+    <string name="history_empty">Empty</string>
+    <string name="history_empty_detail">No barcode scans have been recorded</string>
+    <string name="history_send">Send history</string>
+    <string name="history_title">History</string>
+    <string name="menu_encode_mecard">Use MECARD</string>
+    <string name="menu_encode_vcard">Use vCard</string>
+    <string name="menu_help">Help</string>
+    <string name="menu_history">History</string>
+    <string name="menu_settings">Settings</string>
+    <string name="menu_share">Share</string>
+    <string name="msg_bulk_mode_scanned">Bulk mode: barcode scanned and saved</string>
+    <string name="msg_camera_framework_bug">Sorry, the Android camera encountered a problem. You may need to restart the device.</string>
+    <string name="msg_default_format">Format</string>
+    <string name="msg_default_meta">Metadata</string>
+    <string name="msg_default_mms_subject">Hi</string>
+    <string name="msg_default_status">Place a barcode inside the viewfinder rectangle to scan it.</string>
+    <string name="msg_default_time">Time</string>
+    <string name="msg_default_type">Type</string>
+    <string name="msg_encode_contents_failed">Could not encode a barcode from the data provided.</string>
+    <string name="msg_error">Error</string>
+    <string name="msg_google_books">Google</string>
+    <string name="msg_google_product">Google</string>
+    <string name="msg_intent_failed">Sorry, the requested application could not be launched. The barcode contents may be invalid.</string>
+    <string name="msg_invalid_value">Invalid value</string>
+    <string name="msg_redirect">Redirect</string>
+    <string name="msg_sbc_book_not_searchable">Sorry, this book is not searchable.</string>
+    <string name="msg_sbc_failed">Sorry, the search encountered a problem.</string>
+    <string name="msg_sbc_no_page_returned">No page returned</string>
+    <string name="msg_sbc_page">Page</string>
+    <string name="msg_sbc_results">Results</string>
+    <string name="msg_sbc_searching_book">Searching book\u2026</string>
+    <string name="msg_sbc_snippet_unavailable">Snippet not available</string>
+    <string name="msg_share_explanation">You can share data by displaying a barcode on your screen and scanning it with another phone.</string>
+    <string name="msg_share_text">Or type some text and press Enter</string>
+    <string name="msg_sure">Are you sure?</string>
+    <string name="msg_unmount_usb">Sorry, the SD card is not accessible.</string>
+    <string name="preferences_actions_title">When a barcode is found\u2026</string>
+    <string name="preferences_auto_focus_title">Use auto focus</string>
+    <string name="preferences_auto_open_web_title">Open web pages automatically</string>
+    <string name="preferences_bulk_mode_summary">Scan and save many barcodes continuously</string>
+    <string name="preferences_bulk_mode_title">Bulk scan mode</string>
+    <string name="preferences_copy_to_clipboard_title">Copy to clipboard</string>
+    <string name="preferences_custom_product_search_summary" formatted="false">Substitutions: %s = contents, %f = format, %t = type</string>
+    <string name="preferences_custom_product_search_title">Custom search URL</string>
+    <string name="preferences_decode_1D_industrial_title">1D Industrial</string>
+    <string name="preferences_decode_1D_product_title">1D Product</string>
+    <string name="preferences_decode_Aztec_title">Aztec</string>
+    <string name="preferences_decode_Data_Matrix_title">Data Matrix</string>
+    <string name="preferences_decode_PDF417_title">PDF417 (β)</string>
+    <string name="preferences_decode_QR_title">QR Codes</string>
+    <string name="preferences_device_bug_workarounds_title">Device Bug Workarounds</string>
+    <string name="preferences_disable_barcode_scene_mode_title">No barcode scene mode</string>
+    <string name="preferences_disable_continuous_focus_summary">Use only standard focus mode</string>
+    <string name="preferences_disable_continuous_focus_title">No continuous focus</string>
+    <string name="preferences_disable_exposure_title">No exposure</string>
+    <string name="preferences_disable_metering_title">No metering</string>
+    <string name="preferences_front_light_summary">Improves scanning in low light on some phones, but may cause glare. Does not work on all phones.</string>
+    <string name="preferences_front_light_title">Use front light</string>
+    <string name="preferences_front_light_auto">Automatic</string>
+    <string name="preferences_front_light_off">Off</string>
+    <string name="preferences_front_light_on">On</string>
+    <string name="preferences_general_title">General settings</string>
+    <string name="preferences_history_summary">Store your scans in History</string>
+    <string name="preferences_history_title">Add to History</string>
+    <string name="preferences_invert_scan_title">Invert scan</string>
+    <string name="preferences_invert_scan_summary">Scan for white barcodes on black background. Not available on some devices.</string>
+    <string name="preferences_name">Settings</string>
+    <string name="preferences_orientation_title">No automatic rotation</string>
+    <string name="preferences_play_beep_title">Beep</string>
+    <string name="preferences_remember_duplicates_summary">Store multiple scans of the same barcode in History</string>
+    <string name="preferences_remember_duplicates_title">Remember duplicates</string>
+    <string name="preferences_result_title">Result settings</string>
+    <string name="preferences_scanning_title">When scanning for barcodes, decode\u2026</string>
+    <string name="preferences_search_country">Search country</string>
+    <string name="preferences_supplemental_summary">Try to retrieve more information about the barcode contents</string>
+    <string name="preferences_supplemental_title">Retrieve more info</string>
+    <string name="preferences_vibrate_title">Vibrate</string>
+    <string name="result_address_book">Found contact info</string>
+    <string name="result_calendar">Found calendar event</string>
+    <string name="result_email_address">Found email address</string>
+    <string name="result_geo">Found geographic coordinates</string>
+    <string name="result_isbn">Found book</string>
+    <string name="result_product">Found product</string>
+    <string name="result_sms">Found SMS address</string>
+    <string name="result_tel">Found phone number</string>
+    <string name="result_text">Found plain text</string>
+    <string name="result_uri">Found URL</string>
+    <string name="result_wifi">Found WLAN Configuration</string>
+    <string name="sbc_name">Google Book Search</string>
+    <string name="wifi_changing_network">Requesting connection to network\u2026</string><!-- zxing字符串 -->
+</resources>

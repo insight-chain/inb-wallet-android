@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3574fa</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#3574fa</color>
+    <color name="transparent">#00000000</color>
+
+    <color name="c_3574fa">#3574fa</color>
+    <color name="c_a5c3f9">#a5c3f9</color>
+    <color name="c_f5a623">#f5a623</color>
+    <color name="c_303030">#303030</color>
+    <color name="c_666666">#666666</color>
+    <color name="c_999999">#999999</color>
+    <color name="c_eeeeee">#eeeeee</color>
+    <color name="c_e5e5e5">#e5e5e5</color>
+    <color name="c_cccccc">#cccccc</color>
+    <color name="c_f6f7f9">#f6f7f9</color>
+    <color name="white">#ffffff</color>
+    <color name="c_white_a60">#66ffffff</color>
+
+    <!-- zxing需要的颜色名 -->
+    <color name="contents_text">#ff000000</color>
+    <color name="encode_view">#ffffffff</color>
+    <color name="possible_result_points">#c0ffbd21</color> <!-- Android standard ICS color -->
+    <color name="result_minor_text">#ffc0c0c0</color>
+    <color name="result_points">#c099cc00</color> <!-- Android standard ICS color -->
+    <color name="result_text">#ffffffff</color>
+    <color name="result_view">#b0000000</color>
+    <color name="status_text">#ffffffff</color>
+    <!--<color name="transparent">#00000000</color>-->
+    <color name="viewfinder_laser">#ffcc0000</color> <!-- Android standard ICS color -->
+    <color name="viewfinder_mask">#60000000</color>
+    <!-- zxing需要的颜色名 -->
+</resources>

@@ -1,0 +1,92 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <!--<style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">-->
+        <!--&lt;!&ndash; Customize your theme here. &ndash;&gt;-->
+        <!--<item name="colorPrimary">@color/colorPrimary</item>-->
+        <!--<item name="colorPrimaryDark">@color/colorPrimaryDark</item>-->
+        <!--<item name="colorAccent">@color/colorAccent</item>-->
+    <!--</style>-->
+
+    <!-- Base application theme. -->
+    <style name="TranslucentTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowTranslucentNavigation">false</item>
+    </style>
+
+    <style name="AppTheme" parent="TranslucentTheme">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@color/colorPrimary</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <!--防止button等控件英文自动转换大小写-->
+        <item name="textAllCaps">false</item>
+    </style>
+
+    <!--SmartTabLayout所需-->
+    <declare-styleable name="stl_SmartTabLayout">
+        <attr format="boolean" name="stl_indicatorAlwaysInCenter"/>
+        <attr format="boolean" name="stl_indicatorWithoutPadding"/>
+        <attr format="boolean" name="stl_indicatorInFront"/>
+        <attr format="enum" name="stl_indicatorInterpolation">
+            <enum name="smart" value="0"/>
+            <enum name="linear" value="1"/>
+        </attr>
+        <attr format="enum" name="stl_indicatorGravity">
+            <enum name="bottom" value="0"/>
+            <enum name="top" value="1"/>
+            <enum name="center" value="2"/>
+        </attr>
+        <attr format="color" name="stl_indicatorColor"/>
+        <attr format="reference" name="stl_indicatorColors"/>
+        <attr format="dimension" name="stl_indicatorThickness"/>
+        <attr format="dimension" name="stl_indicatorWidth">
+            <enum name="auto" value="-1"/>
+        </attr>
+        <attr format="dimension" name="stl_indicatorCornerRadius"/>
+        <attr format="color" name="stl_overlineColor"/>
+        <attr format="dimension" name="stl_overlineThickness"/>
+        <attr format="color" name="stl_underlineColor"/>
+        <attr format="dimension" name="stl_underlineThickness"/>
+        <attr format="color" name="stl_dividerColor"/>
+        <attr format="reference" name="stl_dividerColors"/>
+        <attr format="dimension" name="stl_dividerThickness"/>
+        <attr format="reference" name="stl_defaultTabBackground"/>
+        <attr format="boolean" name="stl_defaultTabTextAllCaps"/>
+        <attr format="color|reference" name="stl_defaultTabTextColor"/>
+        <attr format="dimension" name="stl_defaultTabTextSize"/>
+        <attr format="dimension" name="stl_defaultTabTextHorizontalPadding"/>
+        <attr format="dimension" name="stl_defaultTabTextMinWidth"/>
+        <attr format="reference" name="stl_customTabTextLayoutId"/>
+        <attr format="reference" name="stl_customTabTextViewId"/>
+        <attr format="boolean" name="stl_distributeEvenly"/>
+        <attr format="boolean" name="stl_clickable"/>
+        <attr format="dimension" name="stl_titleOffset">
+            <enum name="auto_center" value="-1"/>
+        </attr>
+        <attr format="boolean" name="stl_drawDecorationAfterTab"/>
+    </declare-styleable>
+    <!-- zxing -->
+    <style name="ResultButton" parent="@android:style/Widget.Holo.Button.Borderless.Small">
+        <item name="android:layout_width">0dip</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+
+    <style name="ShareButton" parent="@android:style/Widget.Holo.Button.Borderless.Small">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <!-- zxing -->
+    <style name="CaptureTheme" parent="AppTheme">
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowActionBarOverlay">true</item>
+        <item name="android:windowActionModeOverlay">true</item>
+    </style>
+
+    <style name="alphIntoPopupAnim" parent="@android:style/Animation.Activity">
+        <item name="android:windowEnterAnimation">@anim/popup_alph_in</item>
+        <item name="android:windowExitAnimation">@anim/popup_alph_out</item>
+    </style>
+</resources>

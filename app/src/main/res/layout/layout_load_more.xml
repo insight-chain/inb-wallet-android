@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/item_rootview"
+    android:layout_width="match_parent"
+    android:layout_height="43dp"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/loading_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <com.wang.avi.AVLoadingIndicatorView
+            android:layout_width="wrap_content"
+            android:layout_height="18dp"
+            android:layout_marginLeft="18dp"
+            app:indicatorColor="@color/colorPrimary"
+            app:indicatorName="LineScalePulseOutIndicator" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/loading_layout_load_more"
+            android:textColor="@color/c_666666"
+            android:textSize="9sp" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/no_more_data_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="@string/no_more_data"
+        android:visibility="gone" />
+
+</RelativeLayout>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white">
+    <ImageView
+        android:id="@+id/iv_circle_head_item_add_property"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="20dp"
+        android:src="@mipmap/icon_default_head_img_circle_black"
+        />
+    <TextView
+        android:id="@+id/tv_coin_name_item_add_property"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:textColor="@color/c_303030"
+        android:includeFontPadding="false"
+        android:layout_toRightOf="@id/iv_circle_head_item_add_property"
+        android:layout_alignTop="@id/iv_circle_head_item_add_property"
+        android:layout_marginLeft="10dp"
+        android:text="INB"/>
+    <TextView
+        android:id="@+id/tv_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/c_999999"
+        android:textSize="13sp"
+        android:includeFontPadding="false"
+        android:layout_alignBottom="@id/iv_circle_head_item_add_property"
+        android:layout_alignLeft="@id/tv_coin_name_item_add_property"
+        android:text="insight"
+        />
+    <CheckBox
+        android:id="@+id/cb_item_add_property"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/transparent"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="15dp"
+        android:layout_centerVertical="true"
+        android:enabled="false"
+        android:button="@drawable/selector_item_recycler_view_add_property"
+        />
+    <View
+        android:id="@+id/view_division_item_add_property"
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/c_eeeeee"
+        android:layout_below="@id/iv_circle_head_item_add_property"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp"/>
+
+</RelativeLayout>

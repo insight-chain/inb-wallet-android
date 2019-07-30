@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#99000000"
+    android:gravity="center_horizontal"
+    >
+    <RelativeLayout
+        android:id="@+id/content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="@mipmap/icon_bg_popup_update_version"
+        >
+        <TextView
+            android:id="@+id/tv_version_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="52dp"
+            android:layout_marginLeft="25dp"
+            android:textSize="15sp"
+            android:textColor="@color/white"
+            android:includeFontPadding="false"
+            android:text="1.5.0"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="13dp"
+            android:layout_alignLeft="@+id/tv_version_name"
+            android:layout_below="@+id/tv_version_name"
+            android:text="@string/upgrade_version"
+            android:textSize="20sp"
+            android:includeFontPadding="false"
+            android:textColor="@color/white"
+            />
+        <TextView
+            android:id="@+id/update_describe"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="165dp"
+            android:layout_centerHorizontal="true"
+            android:textSize="15sp"
+            android:lineSpacingMultiplier="1.2"
+            android:textColor="@color/c_666666"
+            android:text=""
+            android:layout_marginBottom="75dp"
+            android:maxLines="8"
+            />
+
+
+
+
+    </RelativeLayout>
+    <TextView
+        android:id="@+id/update_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@mipmap/icon_bg_btn_popup_update_version"
+        android:layout_marginBottom="20dp"
+        android:layout_alignBottom="@+id/content"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/white"
+        android:textSize="14sp"
+        android:text="@string/immediately_update"
+        android:gravity="center"
+        />
+    <LinearLayout
+        android:id="@+id/rl_progress_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:layout_alignBottom="@+id/content"
+        android:visibility="gone"
+        android:layout_centerHorizontal="true"
+        android:gravity="center_vertical">
+
+        <ProgressBar
+            android:id="@+id/progress_bar"
+            android:layout_width="200dp"
+            android:layout_height="6dp"
+            style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+            android:progressDrawable="@drawable/progress_horizontal"/>
+        <TextView
+            android:id="@+id/tv_percent_number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="10sp"
+            android:layout_marginLeft="5dp"
+            android:textColor="@color/c_3574fa"
+            android:includeFontPadding="false"
+            android:minWidth="25dp"
+            android:text="0%"/>
+
+    </LinearLayout>
+    <ImageView
+        android:id="@+id/iv_close"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/icon_close_popup_update_version"
+        android:layout_below="@+id/content"
+        android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>

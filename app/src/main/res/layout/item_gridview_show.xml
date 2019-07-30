@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView
+    android:id="@+id/tv_item_gridview_show"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="79dp"
+    android:layout_height="30dp"
+    android:background="@mipmap/icon_bg_item_gridview_show"
+    android:textSize="14sp"
+    android:textColor="@color/c_999999"
+    android:gravity="center"
+    >
+
+</TextView>

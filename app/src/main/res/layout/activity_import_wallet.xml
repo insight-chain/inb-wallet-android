@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/c_f6f7f9">
+    <include
+        layout="@layout/layout_topbar_common"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+    <io.insightchain.inbwallet.mvps.view.widget.smarttablayout.SmartTabLayout
+        android:id="@+id/tab_layout_import_wallet_activity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="@id/topbar_common"
+        app:layout_constraintEnd_toEndOf="@id/topbar_common"
+        app:layout_constraintTop_toTopOf="@id/topbar_common"
+        app:layout_constraintBottom_toBottomOf="@id/topbar_common"
+        app:stl_defaultTabTextColor="@color/white"
+        app:stl_defaultTabTextSize="16sp"
+        app:stl_dividerColor="@color/transparent"
+        app:stl_indicatorAlwaysInCenter="false"
+        app:stl_indicatorColor="@color/white"
+        app:stl_indicatorCornerRadius="1.5dp"
+        app:stl_indicatorGravity="bottom"
+        app:stl_indicatorInterpolation="smart"
+        app:stl_indicatorThickness="3dp"
+        app:stl_underlineColor="@color/white"
+        app:stl_underlineThickness="0px"
+        />
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewpager_import_wallet_activity"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintTop_toBottomOf="@id/topbar_common"
+        app:layout_constraintBottom_toBottomOf="parent"
+         />
+
+</android.support.constraint.ConstraintLayout>

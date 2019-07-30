@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <View
+        android:id="@+id/view_popup_add_account"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#99000000"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical">
+        <ImageView
+            android:id="@+id/iv_retraction_view_add_account"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:paddingTop="20dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:src="@mipmap/icon_down_layout_popup_add_account"/>
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recycler_view_add_account"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"></android.support.v7.widget.RecyclerView>
+        <TextView
+            android:id="@+id/btn_add_account_popup_window"
+            android:layout_width="195dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="20dp"
+            android:textSize="15sp"
+            android:textColor="@color/white"
+            android:text="@string/add_account"
+            android:background="@mipmap/icon_bg_btn_save_qrcode"/>
+    </LinearLayout>
+
+</RelativeLayout>

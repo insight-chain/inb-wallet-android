@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <View
+        android:id="@+id/view_other_popup_node_select"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/ll_show_layout"
+        android:background="#99000000"/>
+
+    <LinearLayout
+        android:id="@+id/ll_show_layout"
+        android:layout_width="match_parent"
+        android:layout_height="340dp"
+        android:background="@color/c_f6f7f9"
+        android:layout_above="@id/rl_bottom_layout"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="15dp">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="13sp"
+                android:textColor="@color/c_999999"
+                android:text="已选节点"
+                />
+            <TextView
+                android:id="@+id/tv_clear_node"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="13sp"
+                android:textColor="@color/c_3574fa"
+                android:drawableLeft="@mipmap/icon_delete_blue"
+                android:drawablePadding="5dp"
+                android:text="清空"/>
+        </LinearLayout>
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recycler_view_node_select"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"></android.support.v7.widget.RecyclerView>
+    </LinearLayout>
+    <!--<View-->
+        <!--android:id="@+id/rl_bottom_layout"-->
+        <!--android:layout_width="1dp"-->
+        <!--android:layout_height="50dp"-->
+        <!--android:layout_alignParentBottom="true"/>-->
+    <RelativeLayout
+        android:id="@+id/rl_bottom_layout"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        >
+
+        <View
+            android:id="@+id/rl_show_selected_layout_popup_node_select"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_toLeftOf="@id/view_confirm_vote_layout_popup_node_select">
+        </View>
+        <View
+            android:id="@+id/view_confirm_vote_layout_popup_node_select"
+            android:layout_width="110dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            />
+
+    </RelativeLayout>
+</RelativeLayout>
